@@ -38,6 +38,14 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+
+  /* spacing values */
+  --x-small : 0.8rem;
+  --small : 1rem;
+  --medium: 1.2rem;
+  --large: 2rem;
+  --x-large: 3rem;
 }
 
 @media (prefers-color-scheme: dark) {
