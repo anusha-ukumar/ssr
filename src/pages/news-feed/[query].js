@@ -11,7 +11,7 @@ const NewsFeedTabContent = ({ headlines, params }) => {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="shortcut icon" href="favicon.png" />
       </Head>
       <NewsFeedTabs tabIndex={tabIndex} setTabIndex={setTabIndex}>
         <NewsHeadlineList headlines={headlines} />
