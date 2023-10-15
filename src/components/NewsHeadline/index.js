@@ -4,7 +4,6 @@ import styles from "./index.module.css";
 
 const NewsHeadline = ({ headline }) => {
   const dateMetadata = formatDate(get(headline, "publishedAt"));
-  console.log("dateMetadata: ", dateMetadata);
 
   return (
     <a className={styles.headline} href={headline.url} target="_blank">

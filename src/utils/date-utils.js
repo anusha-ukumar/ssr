@@ -6,10 +6,9 @@ export const formatDate = (date) => {
     let dateObj = new Date(date);
 
     let diff = (currentDate-dateObj);
-    console.log("diff",currentDate-dateObj);
+
     if (diff<86400000) {
         isRecent=true;
-        console.log(currentDate.getHours(),", ",dateObj.getHours());
         if (diff>3600000) {
             const hrs = parseInt(diff/3600000);
             formattedDate=`${hrs} hrs ago`
